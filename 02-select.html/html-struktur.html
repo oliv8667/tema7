@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tema7 test</title>
+    <link rel="stylesheet" href="billeder.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Titel</h1>
+    </header>
+    <main>
+      <h2>undertitel</h2>
+      <section>
+        <article id="billeder">
+          <div class="articel1">
+            <img src="https://placeimg.com/640/480/any" alt="" />
+            <h3>billede 1</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Praesentium facere ullam earum eligendi, illum dolores officia
+              adipisci aspernatur aliquam nemo minima. Molestias error nihil in
+              possimus praesentium consectetur aspernatur. Quibusdam!
+            </p>
+          </div>
+
+          <div class="articel2">
+            <img src="https://placeimg.com/640/480/any" alt="" />
+            <h3>billede 2</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Praesentium facere ullam earum eligendi, illum dolores officia
+              adipisci aspernatur aliquam nemo minima. Molestias error nihil in
+              possimus praesentium consectetur aspernatur. Quibusdam!
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>lavet af Olivia</footer>
+
+    <script>
+      const overskift = document.querySelector("h1");
+      overskift.textContent;
+      console.log(overskift.textContent);
+      overskift.textContent = "buller";
+      console.log(overskift.textContent);
+
+      const underOverskrift = document.querySelector("h2");
+      underOverskrift.textContent;
+      console.log(underOverskrift.textContent);
+
+      const billede1 = document.querySelector("h3");
+      billede1.textContent;
+      console.log(billede1.textContent);
+
+      const footer = document.querySelector("footer");
+      footer.textContent;
+      console.log(footer.textContent);
+    </script>
+  </body>
+</html>
