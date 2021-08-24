@@ -1,4 +1,4 @@
-body {
+article {
   display: flex;
   grid-template-columns: 1fr 1fr;
 }
